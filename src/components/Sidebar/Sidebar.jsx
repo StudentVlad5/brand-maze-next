@@ -21,8 +21,6 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const Sidebar = () => {
   const location = usePathname();
-
-
   return (
     <SidebarContainer>
       <SidebarBox>
@@ -43,7 +41,7 @@ export const Sidebar = () => {
           </NavListLink>
           <NavListLink
             className={`link ${
-              location === '/services' ? 'active' : ''
+              location.split('/').includes("services") ? 'active' : ''
             }`}
             href="/services"
             aria-label="Services"
@@ -52,7 +50,7 @@ export const Sidebar = () => {
           </NavListLink>
           <NavListLink
             className={`link ${
-              location === '/projects' ? 'active' : ''
+              location.split('/').includes("projects") ? 'active' : ''
             }`}
             href="/projects"
             aria-label="Projects"

@@ -8,11 +8,13 @@ body {
   .is-expanded {
     transform: translateX(0);
   }
-  .linkOfProject {
+  .linkOfProject,
+  .linkOfServices {
     list-style: none;    
     margin: 10px 0;
   }
-  .linkOfProject>a{
+  .linkOfProject>a,
+  .linkOfServices>a {
     text-decoration: none;
     font-size: 20px;
     color: gray;

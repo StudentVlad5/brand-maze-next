@@ -1,1 +1,1 @@
-export default function Services() { return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Services</h1></div> }
+export default function Services() { return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Choose your service</h1></div> }
