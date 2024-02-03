@@ -1,0 +1,1 @@
+export default function Page() { return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Hello, It's my HomePage!</h1></div> }

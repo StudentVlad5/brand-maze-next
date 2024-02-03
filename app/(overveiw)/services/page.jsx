@@ -1,0 +1,1 @@
+export default function Services() { return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Services</h1></div> }

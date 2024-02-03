@@ -1,0 +1,1 @@
+export default function Contact() { return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Contact</h1></div> }

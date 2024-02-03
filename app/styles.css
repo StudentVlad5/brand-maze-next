@@ -1,0 +1,21 @@
+body {
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    padding: 20px 20px 60px;
+    /* max-width: 680px; */
+    margin: 0 auto;
+  }
+  .is-expanded {
+    transform: translateX(0);
+  }
+  .linkOfProject {
+    list-style: none;    
+    margin: 10px 0;
+  }
+  .linkOfProject>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    width: 500;
+
+  }
