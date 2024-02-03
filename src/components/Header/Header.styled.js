@@ -1,5 +1,6 @@
 import { keyframes, styled } from "styled-components";
 import { MdOutlineMenu } from "react-icons/md";
+import Link from 'next/link'
 
 const fadeInTopAnimation = keyframes`
   0% {
@@ -65,7 +66,7 @@ export const Logo = styled.p`
   }
 `;
 
-export const LogoBox = styled.a`
+export const LogoBox = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   z-index: 999;

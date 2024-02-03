@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body style={{width:"100%", height:"100vh"}}>
         <HeaderComp/>
-          <main>
+          <main style={{height:"90vh"}}>
             <Sidebar/>
             {children}
           </main>
