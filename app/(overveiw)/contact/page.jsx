@@ -14,7 +14,7 @@ export default function Contact() {
     //     throw new Error("Error on page Contact");
     // }
     // if(random !== 1){
-            // redirect('about/');
+    //         // redirect('about/');
     //         setTimeout(()=>{rout.push('about/')},2000);
     // }
     return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><Suspense key={router} fallback={<ClipLoaderSpinner/>}><h1>Contact</h1></Suspense></div> }
