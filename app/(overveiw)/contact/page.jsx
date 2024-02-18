@@ -1,7 +1,7 @@
 "use client"
 import  ClipLoaderSpinner  from '../../loading';
 import { Suspense } from 'react';
-import { usePathname, redirect, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 export default function Contact() { 
     const router = usePathname();
