@@ -1,4 +1,6 @@
+import { getDictionary } from "../dictionaries/dictionaries";
+
 export default async function Page ({params:{lang}}){
-    const dict = await getDictionary(lang);
-    return <button>{dict.product.languages}</button>
+    const dict = getDictionary(lang);
+    return <button>{dict}</button>
 }
