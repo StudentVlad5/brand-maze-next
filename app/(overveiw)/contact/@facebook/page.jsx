@@ -7,7 +7,7 @@ const Facebook = () => {
     return (
     <div style={{width:"100%", textAlign:"center"}}>
         <Suspense fallback={<div>SCELETON FaceBook</div>}>
-            <h1>There our contacts in FaceBook</h1>
+            <h1>There are our contacts in FaceBook</h1>
             <Users/>
             <Messages/>
         </Suspense>

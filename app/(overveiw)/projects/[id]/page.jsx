@@ -10,3 +10,5 @@ export default function ProjectNumber() {
         throw new Error("Error on Project ID page")
     }
     return <div style={{width:"100%", paddingTop:"60px", textAlign:"center"}}><h1>Project # {location.split('/').reverse()[0]}</h1></div> }
+
+    export const dynamic = "force-dynamic"; // прибрати кешування сегменту
